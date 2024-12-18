@@ -1,44 +1,32 @@
 {
-  "name": "frontend",
-  "version": "0.1.0",
-  "private": true,
-  "dependencies": {
-    "@reduxjs/toolkit": "^2.5.0",
-    "axios": "^1.7.9",
-    "bulma": "^1.0.2",
-    "cra-template-redux": "2.0.0",
-    "jspdf": "^2.5.2",
-    "lucide-react": "^0.468.0",
-    "react": "^19.0.0",
-    "react-dom": "^19.0.0",
-    "react-icons": "^5.4.0",
-    "react-redux": "^9.2.0",
-    "react-router-dom": "^7.0.2",
-    "react-scripts": "5.0.1",
-    "web-vitals": "^4.2.4"
-  },
+  "name": "project_rpl123",
+  "version": "1.0.0",
+  "main": "index.js",
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "start": "expo start",
+    "android": "expo run:android",
+    "ios": "expo run:ios",
+    "web": "expo start --web"
   },
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
+  "dependencies": {
+    "@expo/metro-runtime": "~4.0.0",
+    "@react-native-async-storage/async-storage": "^2.1.0",
+    "@react-native-picker/picker": "^2.10.2",
+    "axios": "^1.7.9",
+    "expo": "~52.0.19",
+    "expo-document-picker": "~13.0.1",
+    "expo-file-system": "~18.0.6",
+    "expo-sharing": "^13.0.0",
+    "expo-status-bar": "~2.0.0",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "react-native": "0.76.5",
+    "react-native-document-picker": "^9.3.1",
+    "react-native-fs": "^2.20.0",
+    "react-native-web": "~0.19.13"
   },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
-  }
+  "devDependencies": {
+    "@babel/core": "^7.20.0"
+  },
+  "private": true
 }
